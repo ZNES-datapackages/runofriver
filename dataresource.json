@@ -1,0 +1,135 @@
+{
+    "profile": "tabular-data-resource",
+    "path": "data/runofriver.csv",
+    "format": "csv",
+    "schema": {
+        "fields": [
+            {
+                "type": "integer",
+                "description": "id",
+                "name": "ror_nr",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "Name of the unit",
+                "name": "ror_unit",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "Name of the plant",
+                "name": "ror_plant",
+                "format": "default"
+            },
+            {
+                "type": "integer",
+                "description": null,
+                "name": "region_id",
+                "format": "default"
+            },
+            {
+                "type": "integer",
+                "description": "zip code of the location",
+                "name": "zip",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": null,
+                "name": "city",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": null,
+                "name": "street",
+                "format": "default"
+            },
+            {
+                "type": "integer",
+                "description": "year of installation",
+                "name": "year",
+                "format": "default"
+            },
+            {
+                "type": "number",
+                "description": "installed capacity in MW",
+                "name": "Pinst",
+                "format": "default"
+            },
+            {
+                "type": "number",
+                "description": "energy that can be gained from the water kwh/m3",
+                "name": "efactor",
+                "format": "default"
+            },
+            {
+                "type": "number",
+                "description": "difference in altitude in m",
+                "name": "head",
+                "format": "default"
+            },
+            {
+                "type": "number",
+                "description": "inflow to the power plant in mio m3",
+                "name": "total_flow",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "next downstream res_nr",
+                "name": "flo_river_ror",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "operational status of the plant",
+                "name": "status",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": null,
+                "name": "company",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "optional: turbine type",
+                "name": "turbtype",
+                "format": "default"
+            },
+            {
+                "type": "integer",
+                "description": "specified id for geo referencing",
+                "name": "geodbid",
+                "format": "default"
+            },
+            {
+                "type": "string",
+                "description": "river in which the plant is located",
+                "name": "river",
+                "format": "default"
+            },
+            {
+                "type": "integer",
+                "description": "km from stream source",
+                "name": "river_km",
+                "format": "default"
+            },
+            {
+                "type": "number",
+                "description": "assigned level meter for flow curve",
+                "name": "level_meter",
+                "format": "default"
+            }
+        ],
+        "missingValues": [
+            ""
+        ]
+    },
+    "encoding": "utf-8",
+    "mediatype": "text/csv",
+    "name": "runofriver"
+}
